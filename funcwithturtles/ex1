@@ -1,0 +1,19 @@
+import turtle 
+
+def square(t, sz):
+    for i in range(5):
+        for i in range(4):
+            t.forward(sz)
+            t.left(90)
+        t.penup()
+        t.forward(2*sz)
+        t.pendown()
+    
+    
+wn = turtle.Screen()
+wn.bgcolor("blue")
+wn.title("Test")
+
+chloe = turtle.Turtle()
+square(chloe, 20)
+wn.mainloop()
