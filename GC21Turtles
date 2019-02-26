@@ -1,0 +1,92 @@
+#exercise 1
+for i in range (1000):
+    print("We like Python's Turtles!")
+    
+#exercise 3
+months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+x = 0
+for i in range (12):
+    print ("One of the months of the year is", months[x])
+    x = x+1
+    
+#exercise 4
+tess.left(180)
+tess.left(3645)
+#(Tess faces South West)
+
+#exercise 5a
+xs = [12,10,32,3,66,17,42,99,20]
+a = 0
+for i in range(9):
+    print (xs[a])
+    a = a +1
+
+#exercise 5b
+xs = [12,10,32,3,66,17,42,99,20]
+a = 0
+for i in range(9):
+    print (xs[a], (xs[a]*xs[a]))
+    a = a +1
+
+#exercise 5c
+xs = [12,10,32,3,66,17,42,99,20]
+total = (sum(xs))
+print(total)
+
+#exercise 5d
+
+xs = [12,10,32,3,66,17,42,99,20]
+def multiply(numbers):
+    total = 1
+    for x in numbers:
+        total*=x
+    return total 
+print(multiply((xs)))
+
+#exercise 6a
+
+import turtle             
+wn = turtle.Screen()      
+alex = turtle.Turtle()    
+
+for i in range(3):
+    alex.forward(100)
+    alex.left(120)
+ 
+wn.mainloop()
+
+#exercise 6b
+
+import turtle             
+wn = turtle.Screen()      
+alex = turtle.Turtle()    
+
+for i in range(4):
+    alex.forward(100)
+    alex.left(90)
+ 
+wn.mainloop()
+
+#exercise 6c
+
+import turtle             
+wn = turtle.Screen()      
+alex = turtle.Turtle()    
+
+for i in range(6):
+    alex.forward(100)
+    alex.left(60)
+ 
+wn.mainloop()
+
+#exercise 6d
+
+import turtle             
+wn = turtle.Screen()      
+alex = turtle.Turtle()    
+
+for i in range(8):
+    alex.forward(100)
+    alex.left(45)
+ 
+wn.mainloop()
